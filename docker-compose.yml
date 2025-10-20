@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  port-analyzer:
+    build: .
+    container_name: port-congestion-analyzer
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    command: python scripts/real_data_scraper.py
