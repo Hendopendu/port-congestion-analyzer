@@ -1,0 +1,9 @@
+pandas
+numpy
+streamlit
+websockets
+python-dotenv
+jupyterlab
+scipy
+plotly
+shapely
