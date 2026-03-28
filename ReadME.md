@@ -59,7 +59,7 @@ docker compose exec jupyter python -u src/aligner.py
 📊 Results & Dashboard
 The final output is an interactive dashboard accessible at http://localhost:8501.
 
-![alt text](image.png)
+!![alt text](image-3.png)
 
 Statistical Insights
 The analyzer calculates the Pearson Correlation Coefficient to determine the relationship between vessel density and pricing. It specifically looks for Time Lag, testing if congestion today predicts freight spikes 7, 14, or 21 days into the future.
